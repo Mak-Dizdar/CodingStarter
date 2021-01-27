@@ -1,0 +1,74 @@
+{
+    "categories": [
+        {
+            "categoryTitle": "HTML",
+            "articles": [
+                {
+                    "Id": 1,
+                    "title": "Part 1: Introduction",
+                    "videoId": "dD2EISBDjWM",
+                    "text": "HTML means HyperTextMarkupLanguage. HTML is a Document containing Text. Web Browsers can read and display the documents that contain HTML. HTML consists of Tags like &ltbody&gt &lth1&gt and more...",
+                    "date": "2020-02-20 18:35:43"
+                },
+                {
+                    "Id": 2,
+                    "title": "Part 2: Creating first website",
+                    "videoId": "-USAeFpVf_A",
+                    "text": "The most important tags are html,head and body. The head tag contains meta information about your website. <br> The body contains the HTML Structure that is shown in the browser",
+                    "snippet": "&lt!DOCTYPE html&gt<br> &lthtml&gt<br> &lthead&gt<br> &lttitle&gtPage Title&lt/title&gt<br> &lt/head&gt<br> &ltbody&gt<br> &lth1&gtThis is a Heading&lt/h1&gt <br>&ltp&gtThis is a paragraph.&lt/p&gt <br>&lt/body&gt <br>&lt/html&gt",
+                    "date": "2020-03-14 06:12:50"
+                },
+                {
+                    "Id": 3,
+                    "title": "Part 3: Line break, spacing, and comments",
+                    "videoId": "i3GE-toQg-o",
+                    "text": "You can make line breaks with &ltbr&gt, spacing with serveral methods.<br>Comments can be made with /*coment*/",
+                    "date": "2020-06-12 16:14:40"
+                },
+                {
+                    "Id": 4,
+                    "title": "Part 4: Ordered and Unordered Lists",
+                    "videoId": "09oErCBjVns",
+                    "text": "The following code example shows you how to make a list in HTML",
+                    "snippet": "&lt ul&gt<br>&ltli&gtThis is list item 1&lt/li&gt<br>&ltli&gtThis is list item 2&lt/li&gt<br>&ltli&gtThis is list item 3&lt/li&gt<br>&ltli&gtThis is list item 4&lt/li&gt<br>&lt/ul&gt",
+                    "date": "2020-10-07 09:18:18"
+                },
+                {
+                    "Id": 5,
+                    "title": "Part 5: Tables",
+                    "videoId": "wvR40su_XBM",
+                    "text": "In HTML you can also make Tables like in Excel",
+                    "date": "2020-10-13 16:56:39"
+                }
+            ]
+        },
+        {
+            "categoryTitle": "CSS",
+            "articles": [
+                {
+                    "Id": 6,
+                    "title": "Part 1: Introduction",
+                    "videoId": "qKoajPPWpmo",
+                    "text": "Cascading Style Sheets (CSS) is a style sheet language used for describing the look and formatting of a document in HTML",
+                    "date": "2020-03-06 08:21:41"
+                },
+                {
+                    "Id": 7,
+                    "title": "Part 2: Changing Font type,size and color",
+                    "videoId": "UO0ZPL8yMpU",
+                    "text": "The following examples shows you some options for font styling",
+                    "snippet": ".fancy-headline {<br>font-family: \"Roboto\";<br>font-size: 15px;<br>font-style: \"italic\";<br>font-weight: \"bold\";<br>}",
+                    "date": "2020-07-07 10:46:36"
+                },
+                {
+                    "Id": 8,
+                    "title": "Part 4: Borders",
+                    "videoId": "hCoMjvtsyPA",
+                    "text": "With the following example you can make a black border with strength of 1px",
+                    "date": "2020-10-06 22:00:21",
+                    "snippet": "article {<br>border: 1px solid black<br>}"
+                }
+            ]
+        }
+    ]
+}

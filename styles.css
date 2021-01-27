@@ -1,0 +1,200 @@
+/* main styles */
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* font-family: Arial, Helvetica, sans-serif;
+     background: url(hagenberg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    font-family: "Oswald", sans-serif;
+    box-sizing: border-box;
+    background: whitesmoke;
+}
+
+
+/* navigation styles */
+
+nav {
+    background: #111;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-bar {
+    text-align: center;
+    display: inline-flex;
+    list-style: none;
+}
+
+.menu-bar>li {
+    width: 100%;
+    padding: 10px 30px;
+}
+
+.menu-bar>li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-bar>li a:hover {
+    text-decoration: none;
+    color: rgb(36, 252, 244);
+}
+
+.active {
+    position: relative;
+    font-size: 20px;
+}
+
+.active:hover {
+    background: #222;
+    border-radius: 1px;
+}
+
+h4 {
+    font-style: italic;
+}
+
+.left-side {
+    display: flex;
+}
+
+.nav-bar>.left-side>div {
+    margin-right: 20px;
+    font-size: 0.9em;
+}
+
+.middle-side {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.brand {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.brand img {
+    height: 50px;
+    content: "";
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.3s;
+}
+
+.nav-link-wrapper a {
+    text-decoration: none;
+    transition: color 0.5s;
+    color: #0052cc;
+}
+
+.nav-link-wrapper a:hover {
+    border-bottom: 1px solid #ff6666;
+    color: #ff6666;
+}
+
+
+/* Portfolio styles */
+
+main {
+    padding: 50px;
+}
+
+section {
+    width: 100%;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: medium;
+}
+
+.article-container {
+    display: flex;
+    gap: 50px;
+    justify-content: stretch;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+article {
+    background: white;
+    border-radius: 5px;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    transition: ease 0.5s;
+}
+
+article:hover {
+    transform: scale(1.05);
+}
+
+.img-wrapper {}
+
+.thumbnail {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.text-wrapper {
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.subtitle {
+    text-align: center;
+}
+
+.title {
+    margin-top: 80px;
+}
+
+
+/* Resonsive Design */
+
+.responsive-menu {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .left-side,
+    .right-side {
+        display: none;
+    }
+    .nav-icon-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .responsive-menu {
+        display: block;
+    }
+    .article-container {
+        justify-content: center;
+    }
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <script defer src="scripts/contact.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-bar">
+            <div class="left-side">
+                <!-- <div class="nav-link-wrapper"> -->
+                <ul class="menu-bar">
+                    <li class="active">
+                        <a href="./index.html"> Home </a>
+                    </li>
+                    <li class="active">
+                        <a href="category.html">Categories</a>
+                    </li>
+                </ul>
+                <!-- </div> -->
+            </div>
+            <div class="middle-side">
+                <div class="brand">
+                    <img src="images/logo3.png" />
+                </div>
+            </div>
+            <div class="right-side">
+                <!-- <div class="nav-link-wrapper"> -->
+                <ul class="menu-bar">
+                    <li class="active">
+                        <a href="./contact.html"> Contact </a>
+                    </li>
+                </ul>
+                <!-- </div> -->
+            </div>
+
+        </div>
+
+        <div class="responsive-menu">
+            <ul class="menu-bar">
+                <li class="active">
+                    <a href="./index.html"> Home </a>
+                </li>
+                <li class="active">
+                    <a href="category.html">Categories</a>
+                </li>
+                <li class="active">
+                    <a href="./contact.html"> Contact </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="background-image"></div>
+    <div class="contactContainer">
+        <h1>About us</h1>
+        <span class="separate">
+
+        </span>
+        <div class="info">
+            <a href="#hazret"><img src="images/hazret.png" alt=""></a>
+            <a href="#max"><img src="images/max.png" alt=""></a>
+            <a href="#contact-formular"><img src="images/contact-formular.png" alt=""></a>
+        </div>
+        <div class="section" id="hazret">
+            <span class="name">Hazret Dizdarevic</span>
+            <span class="separate"></span>
+            <p>My name is Hazret Dizdarevic .I was born in Bosnia and Herzegovina. I'm currently bachelor student of software engineering and co-founder of CodingStarter. I love football, table tennis and music. My dream is to make something unique what
+                with help people around the world. </p>
+        </div>
+        <div class="section" id="max">
+            <span class="name">Maximilian Schwarz</span>
+            <span class="separate"></span>
+            <p>My name is Max Schwarz. I was born in Austria. I am currently studying Software Engineering in Hagenberg, Austria. I am Co-Founder of Coding Starter because I love making software and want to spread this love with others. Beside making software
+                I am interested in different topics like modern architecture, bar keeping and video gaming</p>
+        </div>
+        <div class="section" id="contact-formular">
+            <span class="name">Questions and remarks</span>
+            <span class="separate"></span>
+            <div class="validationSection">
+                <div class="contact_form">
+                    <div id="error"></div>
+                    <form name="contactForm" method="POST" action="" onsubmit="return validation()">
+                        <input type="text" name="fullname" id="fullname" placeholder="Name*" required>
+                        <input type="email" name="email" id="email" placeholder="E-Mail*" required>
+                        <textarea name="message" id="message" placeholder="Message*"></textarea>
+                        <input type="submit" name="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+</body>
+
+</html>

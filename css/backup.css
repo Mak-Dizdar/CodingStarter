@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: whitesmoke;
+    font-family: sans-serif;
+}
+
+ul {
+    width: 100%;
+    margin: 10px;
+    padding: 5;
+    overflow: hidden;
+}
+
+ul a {
+    background: #1a75ff;
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 10px 20px;
+    display: block;
+    margin: 10px;
+    text-decoration: none;
+    float: left;
+    transition: 0.3s all;
+}
+
+ul a:hover {
+    background: red;
+}
+
+section {
+    float: left;
+}
+
+section video {
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    display: none;
+    float: left;
+}
+
+section :target video {
+    display: block;
+}
+
+@media screen and (max-width: 756px) {}
